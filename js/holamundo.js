@@ -3,10 +3,6 @@ const LLENAR_DATOS = "Debes llenar el formulario completo"
 for (const iterator of personas) {
     console.log(iterator)
 }
-/* let name = prompt('¿Cual es tu nombre?')
-let apellido = prompt('¿Cual es tu apellido?')
-alert(`Hola ${name} ${apellido}, como estas?`) */
-
 
 function enviarDatos(){
     let name = document.getElementById("name").value;
